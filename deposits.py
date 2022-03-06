@@ -1,7 +1,7 @@
 def bank(a,years):
     # часть от суммы 
     quart = (a * 10)/ 100
-    # проценты за каждый год 
+    # проценты за каждый год  
     percents = years * quart
     sum = a + percents
     return sum
